@@ -1,10 +1,17 @@
-# Huckleberry Agency Website
+# Premier atelier de la formation ['CSS for JavaScript developers'](https://css-for-js.dev/) :
+
+- Le HTML était fourni.
+- J'ai ajouté les styles en mobile first (mobile, tablette, pc)
+    - Utilisation des variables CSS.
+    - Prise en compte des règles de fusion des marges pour bien positionner les éléments.
+
+## Huckleberry Agency Website
 
 In this workshop, you'll build a minimal landing page for an agency.
 
 This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning. It relies heavily on padding, margin, and border.
 
-## Mockups
+### Mockups
 
 Desktop:
 
@@ -18,7 +25,7 @@ Mobile:
 
 <img alt="Desktop-sized screenshot of an agency landing page" src="./docs/huckleberry-mobile.png" style="max-width: 300px;" />
 
-## Setup Instructions
+### Setup Instructions
 
 This project uses Parcel, to provide a development server with lightning-quick hot-reload.
 
@@ -42,15 +49,9 @@ You can visit `http://localhost:1234` to view the page. You should see a bunch o
 
 ![Screenshot of an unstyled page with a couple headings and some paragraphs](./docs/initial.png)
 
-## Getting Started Notes
+### Getting Started Notes
 
 - You're given a decent start in terms of the HTML markup, but not much in the way of styles. You'll be expected to edit `style.css` to implement the styles. You can also edit `index.html` if you wish, though it should be possible to solve this project touching only `style.css`.
-
-- Don't worry too much about "best practices". Later in this course, we'll see how to create scalable encapsulated styles. For now, the goal is simply to implement the designs in the screenshots, with whatever organizational strategy comes most naturally to you.
-
-- You may be tempted to reach for CSS strategies we haven't yet seen in the course, like flexbox or absolute positioning. Please try and complete this workshop without them. This module is focused on flow-layout and the box-model, and it is possible to lay everything out on the page using only padding, border, and margin. It's important to be comfortable with these primitives before moving on to more-complex subjects.
-
-- Future workshops will provide a React starter. For the early workshops, the focus is on the fundamentals, so we're using pure HTML and CSS. If you feel more comfortable using a JS framework like React, you can go ahead, but please don't use any component libraries or CSS frameworks. All CSS should be written by hand.
 
 - **Pay close attention to alignment.** For example, you should be able to draw a line along the left, and all text should be neatly aligned:
 
@@ -58,7 +59,7 @@ You can visit `http://localhost:1234` to view the page. You should see a bunch o
 
 That said: Don't worry if you can't create a pixel-perfect recreation. In the solution video, I'll show you exactly how I did it. Spend an hour or so on this project, and submit whatever you have at that point.
 
-## Design tokens
+### Design tokens
 
 In the early days of the web, sites would be built largely on "feel". Colors and sizes would be chosen based on the whims of the moment. This led to some very inconsistent-looking websites!
 
@@ -68,7 +69,7 @@ We'll learn more about this idea later, but for now, you can copy/paste the valu
 
 **If you find it difficult to use these tokens, or if you're not able to achieve a result you're happy with, don't worry about it.** Solve it however you can, and then watch the solution video to see how I did it.
 
-### Spacing
+#### Spacing
 
 This app uses an 8px unit. All spaces are a multiple of 8px:
 
@@ -83,7 +84,7 @@ This app uses an 8px unit. All spaces are a multiple of 8px:
 
 When it comes to max widths (eg. the maximum width of the card), arbitrary values can be used.
 
-### Font
+#### Font
 
 1 font is used in this project: `Lato`. It is already included in the stylesheet.
 
@@ -103,7 +104,7 @@ Because the base font size is 18px, this works out in pixels to:
 - `27px`
 - `36px`
 
-### Color palette
+#### Color palette
 
 Primary (green):
 
@@ -127,7 +128,7 @@ Grays:
 >
 > You may be more familiar with color values in hexidecimal format, like `#FF0000`. In Module 0's "color" lesson, we go over what HSL color is and how it works. If you haven't already, it's worth reviewing before getting started!
 
-## Submissions
+### Submissions
 
 **Workshops are submitted through the course platform.** Commit your changes, push them to your fork, and submit the link by clicking the "Complete lesson" button on the workshop page.
 

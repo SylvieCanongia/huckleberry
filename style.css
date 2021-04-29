@@ -1,0 +1,115 @@
+ :root {
+    /* COLOR PALETTE */
+
+    --body-background-color: hsl(0.57deg, 0.32%, 0.07%);
+    /* Green */
+    --primary: hsl(160deg, 100%, 30%);
+    /* Gold */
+    --secondary-lighter: hsl(45deg, 100%, 50%);
+    --secondary-darker: hsl(45deg, 100%, 40%);
+    /* Grays */
+    --black: hsl(0deg, 0%, 0%);
+    --very-dark-grey: hsl(0deg, 0%, 10%);
+    --dark-grey: hsl(0deg, 0%, 10%);
+    --medium-grey: hsl(0deg, 0%, 40%);
+    --light-grey: hsl(0deg, 0%, 60%);
+    --white: hsl(0deg, 0%, 100%);
+
+    /* TYPOGRAPHY */
+    --base-font-size: 1.125em;
+
+    --small: 1rem;
+    --medium: 1.25rem;
+    --large: 1.5rem;
+    --very-large: 2rem;
+
+    /* SPACING */
+    --base-space: 8px;
+    --space-XS: 16px;
+    --space-S: 24px;
+    --space-M: 32px;
+    --space-L: 48px;
+    --space-XL: 64px;
+    --space-XXL: 96px;
+    --space-XXXl: 128px;
+ }
+
+ * {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+ html {
+     font-size: var(--base-font-size);
+ }
+
+  /* GENERAL STYLES */
+
+  h1, h2 {
+      color: var(--black);
+      font-weight: 900;
+  }
+
+  h2 {
+      font-size: var(--medium);
+  }
+
+  p {
+      font-size: var(--medium);
+      margin-block-end: var(--space-S);
+  }
+
+  .max-width-wrapper {
+    background-color: var(--white);
+    padding-inline-end: var(--space-M);
+    padding-block-end: var(--space-M);
+    border-bottom: 6px solid var(--medium-grey);
+}
+
+/* HEADER */
+
+.max-width-wrapper .intro-chunk {
+    margin-inline-start: var(--space-M);
+}
+
+h1 {
+    font-size: var(--large);
+    padding-block-start: var(--space-XXL);
+    margin-block-end: var(--space-XL);
+    margin-block-start: -(var(--base-font-size));
+}
+
+.intro-chunk strong {
+    color: var(--primary);
+}
+
+/* MAIN */
+
+main {
+    background-color: var(--light-grey);
+    padding-block-start: var(--space-XXL);
+    padding-block-end: var(--space-XL);
+}
+
+.card {
+    padding-block-start: var(--base-space);
+}
+
+.card h2 {
+    background-color: var(--secondary-lighter);
+    border-bottom: 6px solid var(--secondary-darker);
+    padding: var(--space-S);
+    margin-block-start: 0;
+}
+
+.card p {
+    font-size: var(--small);
+    margin-inline-start: var(--space-M);
+}
+
