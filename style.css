@@ -113,3 +113,29 @@ main {
     margin-inline-start: var(--space-M);
 }
 
+@media only screen and (min-width: 768px) {
+
+    /* HEADER */
+    .intro-chunk p {
+        max-width: 60%;
+        font-size: var(--medium);
+    }
+
+    h1 {
+        font-size: var(--very-large);
+    }
+   
+    /* MAIN */
+    main .max-width-wrapper {
+        padding-block-end: 0;
+    }
+    .card h2 {
+        font-size: var(--large);
+        width: fit-content;
+    }
+
+    .card p {
+        font-size: var(--medium);
+    }
+}
+
